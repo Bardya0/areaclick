@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "areaclick",
+  "version": "${version}",
+  "name": "Area Click",
+  "description": "Press a chosen key when a player enters an area and again when they leave it.",
+  "authors": ["Bardya"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.bardya.areaclick.AreaClickMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
